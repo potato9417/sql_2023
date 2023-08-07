@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4042ED6E-FCE1-B1AB-6A55-ED5F19998D5B" name="member_tbl">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:02:38 UTC</createdTime>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>member</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="584316BE-7A3B-AE0B-E76B-FAC3053802A5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:05:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[id]]></commentInRDBMS>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="8B1185FB-0D2F-41E6-701D-14C61712B5C2">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[password]]></commentInRDBMS>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="C1FCCAC9-1474-2B8A-6A0A-16044A4BD51F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[name]]></commentInRDBMS>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="DC6580E2-E567-D4EB-6D78-F81DFA8180FE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:39:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[gender]]></commentInRDBMS>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="64A04042-2F43-0717-E066-2110D97F2BA7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:39:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[email]]></commentInRDBMS>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mobile" id="5BEB6D76-9997-69A3-C244-DD516B1443B5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:39:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[mobile]]></commentInRDBMS>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="FA24799D-411E-9641-6188-C2CD1EC4BF6D">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:39:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[phone]]></commentInRDBMS>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="83ABC568-709D-7AB0-84AA-A260EB5A7E8E">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:39:59 UTC</createdTime>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address1" id="1AD300DD-1FCD-52F6-A33B-43E21C4A39BF">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:39:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[addreess1]]></commentInRDBMS>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>600 CHAR</dataTypeSize>
+<ownDataTypeParameters>600 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address2" id="DAA5C527-E828-3CA6-5929-A3F116DF6DAF">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:39:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[address2]]></commentInRDBMS>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>600 CHAR</dataTypeSize>
+<ownDataTypeParameters>600 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthday" id="5D669E8E-DC2B-EB2E-F680-5DFDD69899ED">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:39:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[birthday]]></commentInRDBMS>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="joindate" id="632204B6-7216-D236-8A18-DA74CFC8B2AB">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:39:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[joindate]]></commentInRDBMS>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFEDA9DE-2206-F5D3-A6AA-C0650D0932D0" name="member_tbl_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-08-04 03:05:52 UTC</createdTime>
+<ownerDesignName>java_member_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="584316BE-7A3B-AE0B-E76B-FAC3053802A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
